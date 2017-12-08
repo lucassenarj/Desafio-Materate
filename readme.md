@@ -24,9 +24,10 @@
 
 
 ## Informações
-Utilizada versão 5.5 do Laravel, utilizando o plugin [JWT Auth](https://github.com/tymondesigns/jwt-auth/wiki) para autenticação, o mesmo não apresentava compatibilidade total com a versão atual do framework, então foram feitas adaptações para o funcionamento.
+Utilizada versão 5.5 do Laravel, utilizando o plugin [JWT Auth](https://github.com/tymondesigns/jwt-auth/wiki) para autenticação e [PHPUnit](https://phpunit.de/) para realização de testes unitários e de conexão com banco de dados MySQL
 
 ## Documentações
 - [Laravel](https://laravel.com/docs/5.5)
 - [JWT Auth](https://github.com/tymondesigns/jwt-auth/wiki)
+- [PHPUnit](https://phpunit.de/documentation.html)
 - [Postman](https://www.getpostman.com/docs/)
