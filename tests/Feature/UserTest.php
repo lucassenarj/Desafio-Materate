@@ -31,7 +31,7 @@ class UserTest extends TestCase
      */
     public function testResponseValidLogin(){
         $response = $this->json('POST', 'api/users/login', [
-            'email' => 'lucassena.rj@gmail.com', 
+            'email' => 'test@test.com', 
             'password' => 'admin'
         ]);
         $response->assertStatus(200);
